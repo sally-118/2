@@ -1,0 +1,132 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Tetris - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug/Tetris.res" /d "_DEBUG" "F:\Work\资源文件\资源文件\俄罗斯方块\Tetris.rc"" 
+Creating temporary file "H:\DOCUME~1\wmlake\LOCALS~1\Temp\RSP16.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"Debug/Tetris.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"F:\Work\资源文件\资源文件\俄罗斯方块\AboutDlg.cpp"
+"F:\Work\资源文件\资源文件\俄罗斯方块\BitmapDialog.cpp"
+"F:\Work\资源文件\资源文件\俄罗斯方块\BitmapPropPage.cpp"
+"F:\Work\资源文件\资源文件\俄罗斯方块\BitmapPropSheet.cpp"
+"F:\Work\资源文件\资源文件\俄罗斯方块\CreditStatic.cpp"
+"F:\Work\资源文件\资源文件\俄罗斯方块\dib256.cpp"
+"F:\Work\资源文件\资源文件\俄罗斯方块\dibpal.cpp"
+"F:\Work\资源文件\资源文件\俄罗斯方块\DigiDisplay.cpp"
+"F:\Work\资源文件\资源文件\俄罗斯方块\DirectSound.cpp"
+"F:\Work\资源文件\资源文件\俄罗斯方块\GameBoard.cpp"
+"F:\Work\资源文件\资源文件\俄罗斯方块\GameOverDlg.cpp"
+"F:\Work\资源文件\资源文件\俄罗斯方块\HelpDlg.cpp"
+"F:\Work\资源文件\资源文件\俄罗斯方块\Language.cpp"
+"F:\Work\资源文件\资源文件\俄罗斯方块\MainDlg.cpp"
+"F:\Work\资源文件\资源文件\俄罗斯方块\MIDI.cpp"
+"F:\Work\资源文件\资源文件\俄罗斯方块\OptionsDlg.cpp"
+"F:\Work\资源文件\资源文件\俄罗斯方块\PiecePreview.cpp"
+"F:\Work\资源文件\资源文件\俄罗斯方块\PropSheetTab.cpp"
+"F:\Work\资源文件\资源文件\俄罗斯方块\RoundBmpButton.cpp"
+"F:\Work\资源文件\资源文件\俄罗斯方块\RoundButton.cpp"
+"F:\Work\资源文件\资源文件\俄罗斯方块\ScoreDlg.cpp"
+"F:\Work\资源文件\资源文件\俄罗斯方块\SplashWnd.cpp"
+"F:\Work\资源文件\资源文件\俄罗斯方块\Tetris.cpp"
+"F:\Work\资源文件\资源文件\俄罗斯方块\TetrisDlg.cpp"
+"F:\Work\资源文件\资源文件\俄罗斯方块\VolumeCtrl.cpp"
+]
+Creating command line "cl.exe @H:\DOCUME~1\wmlake\LOCALS~1\Temp\RSP16.tmp" 
+Creating temporary file "H:\DOCUME~1\wmlake\LOCALS~1\Temp\RSP17.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"Debug/Tetris.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"F:\Work\资源文件\资源文件\俄罗斯方块\StdAfx.cpp"
+]
+Creating command line "cl.exe @H:\DOCUME~1\wmlake\LOCALS~1\Temp\RSP17.tmp" 
+Creating temporary file "H:\DOCUME~1\wmlake\LOCALS~1\Temp\RSP18.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/CGTetris.pdb" /debug /machine:I386 /out:"Debug/CGTetris.exe" /pdbtype:sept 
+".\Debug\AboutDlg.obj"
+".\Debug\BitmapDialog.obj"
+".\Debug\BitmapPropPage.obj"
+".\Debug\BitmapPropSheet.obj"
+".\Debug\CreditStatic.obj"
+".\Debug\dib256.obj"
+".\Debug\dibpal.obj"
+".\Debug\DigiDisplay.obj"
+".\Debug\DirectSound.obj"
+".\Debug\GameBoard.obj"
+".\Debug\GameOverDlg.obj"
+".\Debug\HelpDlg.obj"
+".\Debug\Language.obj"
+".\Debug\MainDlg.obj"
+".\Debug\MIDI.obj"
+".\Debug\OptionsDlg.obj"
+".\Debug\PiecePreview.obj"
+".\Debug\PropSheetTab.obj"
+".\Debug\RoundBmpButton.obj"
+".\Debug\RoundButton.obj"
+".\Debug\ScoreDlg.obj"
+".\Debug\SplashWnd.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Tetris.obj"
+".\Debug\TetrisDlg.obj"
+".\Debug\VolumeCtrl.obj"
+".\Debug\Tetris.res"
+]
+Creating command line "link.exe @H:\DOCUME~1\wmlake\LOCALS~1\Temp\RSP18.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AboutDlg.cpp
+BitmapDialog.cpp
+BitmapPropPage.cpp
+BitmapPropSheet.cpp
+CreditStatic.cpp
+dib256.cpp
+dibpal.cpp
+DigiDisplay.cpp
+DirectSound.cpp
+GameBoard.cpp
+linking with Microsoft's DirectSound library ...
+GameOverDlg.cpp
+linking with Microsoft's DirectSound library ...
+linking with multimedia library
+HelpDlg.cpp
+Language.cpp
+MainDlg.cpp
+MIDI.cpp
+linking with Microsoft's DirectSound library ...
+linking with multimedia library
+OptionsDlg.cpp
+linking with multimedia library
+PiecePreview.cpp
+linking with Microsoft's DirectSound library ...
+linking with multimedia library
+PropSheetTab.cpp
+RoundBmpButton.cpp
+RoundButton.cpp
+Generating Code...
+Compiling...
+ScoreDlg.cpp
+SplashWnd.cpp
+Tetris.cpp
+TetrisDlg.cpp
+linking with Microsoft's DirectSound library ...
+linking with multimedia library
+VolumeCtrl.cpp
+linking with Microsoft's DirectSound library ...
+linking with multimedia library
+Generating Code...
+linking with multimedia library
+Linking...
+
+
+
+<h3>Results</h3>
+CGTetris.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
